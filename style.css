@@ -5,7 +5,7 @@ body{
    letter-spacing: 1px;
 }
 
-.flex-container {
+/* .flex-container {
     display: flex;
     align-items: center;
     background-color: #f1f1f1;
@@ -13,6 +13,7 @@ body{
     width: 100%;
     position:fixed;
     top: 0px;
+    z-index: 3;
 
     
   }
@@ -23,12 +24,12 @@ body{
     text-align: left;
     line-height: 20px;
     font-size: 30px;
-  }
+  } */
   /* .flex-container logo{
       text-align: center;
       justify-content: center;
   } */
-  .flex-container .img img{
+  /* .flex-container .img img{
     width:100px;
     height: 80px;
     margin: 0px 10px;
@@ -36,37 +37,47 @@ body{
   }
   .flex-container .img{
       margin-left: 1100px;
-  }
-
-  .body-section{
-    background-color: rgb(124, 124, 202);
-     width: 1700px;
-     height: 100vh;
-     margin: 180px auto 0px;
-     border-radius: 18px;
-
-  }
-
-  .inner-section{
-      background-color: white;
-      height: 100vh;
-      width: 1400px;
-      margin-top: 120px;
-  }
+  } */
 
   .navbar{
       background-color: white;
       color: black;
-      font-size: 18px;
+      font-size: 14px;
       width: 1100px;
-      margin: 50px auto;
-      padding: 10px;
+      margin: 10px auto;
+      padding: 5px;
   }
-  /* .navbar-nav{
-    width: 580px;
-  } */
+hr{
+  width: 5%;
+  margin: auto;
+  text-align:center;
+  border-width: 3px;
+  border-color: rgb(39, 38, 38);
+  margin-top: 30px;
+}
 
-  /* #banner-section h1{
-      height: 80vh;
-    
-  } */
+.flex-container {
+  width:900px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.flex-container > div {
+  text-align: left;
+  margin: 40px;
+  font-size: 12px;
+}
+
+.button{
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 30px 2px;
+  box-shadow: 8px 8px 3px grey;
+}
