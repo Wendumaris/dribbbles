@@ -1,16 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-    <title>Dribbles</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
+  <head>
+    <meta name="description" content="Dribbbles official website">
+    <meta name="keyword" content="Dribbbles, ball, sports">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Dribbbles | Official Page</title>
+  </head>
+  <body>
+    <!-- <section id="nav-section">
         <header>
+            <div logo>
+                <h1>Dribbbles</h1>
+            </div>
             <div class="content">
                 <h3>Landing page</h3>
                 <p>by Stella Maris</p>
@@ -20,23 +26,63 @@
                 <a href="#"><img src="img/preview.png" alt="dribbble image"></a>
             </div>
         </header>
-        <div style="clear: both;"></div>
-        <section class ="outerSection">
-            
-            <section class="innerSection">
-                <nav>
-        
-                </nav>
-                <section>
-        
-                </section>
-            </section>
-        </section>
-        <footer>
-        
-        </footer>
-    
+    </section> -->
+    <div class="flex-container shadow-sm p-3 mb-5 bg-white rounded">
+        <div style="flex-grow: 1" id="logo"> <h1>Dribbbles</h1></div>
+        <div style="flex-grow: 1" id="content">
+            <h1>Landing page</h1>
+            <h3 style="font-size: 14px;">by Stella Maris &nbsp; <span class="glyphicon glyphicon-envelope"></span> &nbsp; 8,000 Viewers</h3>
+        </div>
+        <div style="flex-grow: 8" class="img">
+            <a href="#"><img src="img/preview.png" alt="dribbble image"></a>
+            <a href="#"><img src="img/preview.png" alt="dribbble image"></a>
+        </div>
     </div>
+    <section class="body-section container-fluid">
+        <div class="container-fluid inner-section">
+            <section class="navbar-section">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">
+                    <img src="img/preview.png" width="50" height="50" class="d-inline-block align-center " alt="" loading="lazy">
+                    BC Company
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-lg-auto">
+                          <a class="nav-item nav-link" href="#">Services</a>
+                          <a class="nav-item nav-link" href="#">About Us</a>
+                          <a class="nav-item nav-link" href="#">Our guides </a>
+                          <a class="nav-item nav-link" href="#">Testimonals </a>
+                          <a class="nav-item nav-link" href="#">Blog </a>
+                          <a class="nav-item nav-link" href="#">Contact </a> &nbsp; | &nbsp;
+                          <a class="nav-item nav-link" href="#">Start free trial </a> 
+                        </div>
+                      </div>
+                </nav>
+            </section>
+            <section id="banner-section" style="height: 80vh;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-sm-6">
+                            <h1 style="margin-top: 80px;">Control Your Business. <br> Trust us.</h1>
+                            <p style="margin-top: 50px; line-height:30px;">BC Company can provide prompt and flexible solutions <br> for a full range of professional and business needs</p>
+                            <button style="margin-top: 30px;">Start free trial</button>
+                            <p>Explore the platform</p>
+                        </div>
+                        <div class="col col-sm-6">
+                            <img src="img/party.png" alt="party" height="450px" width="600px">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
 
-</body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 </html>
