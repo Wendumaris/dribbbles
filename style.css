@@ -65,3 +65,47 @@ hr{
   text-align: center;
   padding: 40px;
 }
+
+div.absolute-left {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 400px;
+  height: 100px;
+  box-shadow: 5px 5px 20px #bfbfbf;
+  padding: 10px;
+  background-color: white;
+}
+div.absolute-right {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  box-shadow: 5px 5px 20px #bfbfbf;
+  background-color: white;
+
+}
+
+div.absolute-main {
+  position: absolute;
+  top: 0px;
+  right: 12%;
+  width: 330px;
+  height: 370px;
+  box-shadow: 5px 5px 20px #bfbfbf;
+  background-color: white;
+  font-size: 10px;
+  padding: 30px 25px 0px 10px; 
+
+}
+div.absolute-main h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#absolute-button{
+  position: absolute;
+  bottom: -50px;
+  right: 40%;
+}
