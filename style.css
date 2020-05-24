@@ -7,41 +7,6 @@ body{
 h1, h2, h3{
   font-weight: bolder;
 }
-
-/* .flex-container {
-    display: flex;
-    align-items: center;
-    background-color: #f1f1f1;
-    height: 150px;
-    width: 100%;
-    position:fixed;
-    top: 0px;
-    z-index: 3;
-
-    
-  }
-  .flex-container > div {
-    color: black;
-    margin: 5px;
-    padding-left: 10px;
-    text-align: left;
-    line-height: 20px;
-    font-size: 30px;
-  } */
-  /* .flex-container logo{
-      text-align: center;
-      justify-content: center;
-  } */
-  /* .flex-container .img img{
-    width:100px;
-    height: 80px;
-    margin: 0px 10px;
-    border-radius: 10px;
-  }
-  .flex-container .img{
-      margin-left: 1100px;
-  } */
-
   .navbar{
       background-color: white;
       color: black;
@@ -78,7 +43,7 @@ hr{
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  margin: 30px 2px;
+  margin: 30px 2px 60px;
   box-shadow: 8px 8px 3px grey;
 }
 
@@ -89,4 +54,10 @@ hr{
 #team-section{
   font-size: 12px;
   margin-top: 50px;
+}
+
+#footer-section{
+  background-color: #A9A9A9;
+  text-align: center;
+  padding: 40px;
 }
